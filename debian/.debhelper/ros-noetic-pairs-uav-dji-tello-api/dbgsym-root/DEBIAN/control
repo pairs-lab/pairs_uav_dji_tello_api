@@ -1,0 +1,13 @@
+Package: ros-noetic-pairs-uav-dji-tello-api-dbgsym
+Package-Type: ddeb
+Source: ros-noetic-pairs-uav-dji-tello-api
+Version: 1.0.0-0focal
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 4437
+Depends: ros-noetic-pairs-uav-dji-tello-api (= 1.0.0-0focal)
+Section: debug
+Priority: optional
+Description: debug symbols for ros-noetic-pairs-uav-dji-tello-api
+Build-Ids: fc7a72cd0610ba9184c3ac3f2ca4056a6cb18eb1

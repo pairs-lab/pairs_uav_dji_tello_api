@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /src/.obj-x86_64-linux-gnu/devel/setup.sh

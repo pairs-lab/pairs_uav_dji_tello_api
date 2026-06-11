@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>pairs_uav_dji_tello_api</name>
+  <version>1.0.0</version>
+  <description>DJI TELLO API for MRS UAV System</description>
+
+  <author email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</author>
+  <maintainer email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</maintainer>
+
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cmake_modules</depend>
+  <depend>geometry_msgs</depend>
+  <depend>mavros_msgs</depend>
+  <depend>pairs_lib</depend>
+  <depend>pairs_msgs</depend>
+  <depend>pairs_uav_hw_api</depend>
+  <depend>nav_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <pairs_uav_hw_api plugin="${prefix}/plugins.xml" />
+  </export>
+
+</package>
