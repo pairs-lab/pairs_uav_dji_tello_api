@@ -11,7 +11,7 @@ exclude=(
 # If you want to record cameras, create a copy of this script
 # and place it at your tmux session.
 #
-# Please, seek an advice of a senior researcher of MRS about
+# Please, seek an advice of a senior researcher of PAIRS about
 # what can be recorded. Recording too much data can lead to
 # ROS communication hiccups, which can lead to eland, failsafe
 # or just a CRASH.
@@ -53,7 +53,7 @@ fi
 
 echo "\">" >> "$filename"
 
-echo "<remap from=\"~status_msg_out\" to=\"mrs_uav_status/display_string\" />" >> "$filename"
+echo "<remap from=\"~status_msg_out\" to=\"pairs_uav_status/display_string\" />" >> "$filename"
 echo "<remap from=\"~data_rate_out\" to=\"~data_rate_MB_per_s\" />" >> "$filename"
 
 # file's footer
