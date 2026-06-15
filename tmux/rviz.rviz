@@ -368,7 +368,7 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: false
-    - Class: mrs_rviz_plugins/TexturedMeshDisplay
+    - Class: pairs_rviz_plugins/TexturedMeshDisplay
       Enabled: true
       Name: TexturedMeshDisplay
       Normal Size: 0.05000000074505806

@@ -1,5 +1,5 @@
 <library path="PairsUavHwDjiTelloApi_Api">
   <class type="pairs_uav_dji_tello_api::Api" base_class_type="pairs_uav_hw_api::PairsUavHwApi">
-    <description>MRS UAV Tello API Api</description>
+    <description>PAIRS UAV Tello API Api</description>
   </class>
 </library>

@@ -14,7 +14,7 @@ setup(
     zip_safe=True,
     maintainer='Tomas Baca',
     maintainer_email='klaxalk@gmail.com',
-    description='MRS UAV Tello HW Api',
+    description='PAIRS UAV Tello HW Api',
     license='BSD-3',
     tests_require=['pytest'],
     entry_points={
