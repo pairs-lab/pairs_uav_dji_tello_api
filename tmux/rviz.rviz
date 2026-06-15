@@ -272,7 +272,7 @@ Visualization Manager:
           Enabled: true
           Name: OriginalTrajectory
         - Alpha: 0.10000000149011612
-          Class: mrs_rviz_plugins/Bumper
+          Class: pairs_rviz_plugins/Bumper
           Collision alpha: 0.5
           Collision color: 255; 0; 0
           Color: 204; 51; 204
