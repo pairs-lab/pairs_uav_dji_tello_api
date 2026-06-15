@@ -1,9 +1,9 @@
 # do not modify these
 root: ./
 name: simulation
-socket_name: mrs
+socket_name: pairs
 attach: false
-tmux_options: -f /etc/ctu-mrs/tmux.conf
+tmux_options: -f /etc/ctu-pairs/tmux.conf
 # you can modify these
 startup_window: status
 pre_window: export UAV_NAME=uav1;

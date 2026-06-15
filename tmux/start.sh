@@ -7,7 +7,7 @@ SCRIPTPATH=`dirname $SCRIPT`
 cd "$SCRIPTPATH"
 
 export TMUX_SESSION_NAME=simulation
-export TMUX_SOCKET_NAME=mrs
+export TMUX_SOCKET_NAME=pairs
 
 # start tmuxinator
 tmuxinator start -p ./session.yml
