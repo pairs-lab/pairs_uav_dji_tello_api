@@ -12,7 +12,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Tomas Baca',
+    maintainer='Thanh Nguyen Canh',
     maintainer_email='klaxalk@gmail.com',
     description='PAIRS UAV Tello HW Api',
     license='BSD-3',
